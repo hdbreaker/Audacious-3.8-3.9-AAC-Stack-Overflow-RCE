@@ -149,6 +149,7 @@ This technique ensures that subsequent ROP gadgets execute in the correct stack 
 The critical stack pivot operation:
 
 ![Stack pivot execution](images/Audacious_3.png)
+
 *Stack pivot gadget execution: sub esp, 0x1FF; ret for negative stack pivot*
 
 ```assembly
